@@ -21,7 +21,7 @@ public class PrimoNumeroFibonacciLungoTotChar {
 
     private String searcIntoFibonacciSequence(int numeroCaratteri) {
         boolean trovato = false;
-        Integer counter = 0;
+        int counter = 0;
         String output = null;
         while (!trovato) {
             BigDecimal fibo = fibonacci(counter);
