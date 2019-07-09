@@ -1,14 +1,13 @@
 import java.math.BigDecimal;
 
 public class PrimoNumeroFibonacciLungoTotChar {
-    private final int numeroCaratteri = 1000;
-
-    public void main(String[] args) throws Exception {
+    private static final int numeroCaratteri = 1000;
+    public static void main(String[] args) throws Exception {
 
         System.out.println("Il primo numero della sequenza Fibonacci con " + numeroCaratteri + " caratteri è " + searchIntoFibonacciSequence(numeroCaratteri));
     }
 
-    private BigDecimal fibonacci(int num) {
+    private static BigDecimal fibonacci(int num) {
         BigDecimal a = new BigDecimal(1), b = new BigDecimal(0), temp;
         while (num >= 0) {
             temp = a;
@@ -19,7 +18,7 @@ public class PrimoNumeroFibonacciLungoTotChar {
         return b;
     }
 
-    private String searchIntoFibonacciSequence(int numeroCaratteri) {
+    private static String searchIntoFibonacciSequence(int numeroCaratteri) {
         boolean trovato = false;
         int counter = 0;
         String output = null;
