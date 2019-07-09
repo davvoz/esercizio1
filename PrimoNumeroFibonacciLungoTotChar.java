@@ -5,7 +5,7 @@ public class PrimoNumeroFibonacciLungoTotChar {
 
     public void main(String[] args) throws Exception {
 
-        System.err.println("Il primo numero della sequenza Fibonacci con " + numeroCaratteri + " caratteri è " + searcIntoFibonacciSequence(numeroCaratteri));
+        System.out.println("Il primo numero della sequenza Fibonacci con " + numeroCaratteri + " caratteri è " + searcIntoFibonacciSequence(numeroCaratteri));
     }
 
     private BigDecimal fibonacci(int num) {
