@@ -1,11 +1,3 @@
-/* LEGAL-NOTICE
-   © Copyright 2018 - Quid Informatica S.p.A. - All Rights Reserved
-   https://quidinfo.it/qinetic/licence.html - "Quid Consumer Lending Platform"
-   Deposito SIAE n. 012702 del 26 Luglio 2018
-LEGAL-NOTICE */
-
-package io.qineticbe.common.dbcompare;
-
 import java.math.BigDecimal;
 
 public class PrimoNumeroFibonacciLungoTotChar {
