@@ -24,7 +24,7 @@ public class PrimoNumeroFibonacciLungoTotChar {
         String output = null;
         while (!trovato) {
             BigDecimal fibo = fibonacci(counter);
-            int numberOfCharters = fibonacci(counter).toString().length();
+            int numberOfCharters = fibo.toString().length();
             if (numberOfCharters == numeroCaratteri) {
                 trovato = true;
                 output = fibo.toPlainString();
